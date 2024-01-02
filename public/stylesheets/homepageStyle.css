@@ -1,0 +1,7 @@
+body {
+    overflow: hidden;
+}
+
+div.homepageBackGround {
+    background-image: linear-gradient(blue, darkviolet);
+}

@@ -1,0 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
+div.projectsBackGround {
+    background-image: linear-gradient(to bottom left, black, white);
+}

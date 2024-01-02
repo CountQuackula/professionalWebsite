@@ -1,0 +1,7 @@
+body {
+    overflow: hidden;
+}
+
+div.aboutMeBackGround {
+    background-image: conic-gradient(rgb(210, 210, 210), red, black);
+}

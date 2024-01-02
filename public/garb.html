@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Test title
+        </title>
+        <link rel="stylesheet" href="/stylesheets/style.css">
+        <script src="/javascripts/logic.js"></script>
+    </head>
+    <body>
+        <!--can use the css for everything however for exact sizings should maybe be done in here using style
+        and vh/vw rather than % of parent container to allow font to be done in size of its container/parent-->
+
+        <!--heading/header box-->
+        <div style="height: 10vh; width: 100%;">
+            <!--heading-->
+            <div class="sameLine" style="height: 100%; width: 30%;">
+                <h1 style="height: 100%; width: 100%; font-size: min(7.5vh, 7.5vw);">
+                    Homepage
+                </h1>
+            </div>
+
+            <!--actual buttons-->
+            <div class="sameLine button">About</div>
+            <div class="sameLine button">Contact</div>
+        </div>
+
+        <!--general content box-->
+        <div class="contentArea" style="width:100%;">
+            <div style="background-color: plum; height: 50vh; width: 100%; border-top: 10px;">
+
+            </div>
+
+            <div style="background-color: turquoise; height: 50vh; width: 100%; display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-around;">
+
+                <div class="mainScroll" style="background-color: crimson; height: 50%; width: 50%; margin-top: 10%;">
+                    New test div to move about
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
