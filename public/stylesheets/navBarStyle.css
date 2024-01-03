@@ -24,7 +24,7 @@ div.hubBar {
   padding-right: 25%;
 }
 
-div.hubDiv {
+button.hubDiv {
   min-height: 8vh;
   width: 49.333333%;
   margin-left: 0.333333%;
@@ -34,14 +34,13 @@ div.hubDiv {
   color: white;
   background-image: linear-gradient(to bottom right, red, black);
   border-radius: 2.5vh;
-  transition-duration: 0.4;
+  transition-duration: 1s;
 
   /*Stuff to vertically centre the text which isn't the best way but works*/
-  padding-top: 0.75vh;
-  font-size: 5vh;
+  font-size: 250%;
 }
 
-div.hubDiv:hover {
+button.hubDiv:hover {
   background-image: linear-gradient(to bottom right, black, red);
   box-shadow: 1.5vh 1vh 0.5vh rgba(0, 0, 0, 0.25);
 }
@@ -55,7 +54,7 @@ button.hubButton {
   background-color: aquamarine;
   color: darkviolet;
   font-weight: bolder;
-  transition-duration: 0.4;
+  transition-duration: 1s;
 
   /*Shadow stuff, first is x offset, second is y offset and 3rd is fade*/
   /*can add multiple shadows by simply doing a comma seperated list of them*/

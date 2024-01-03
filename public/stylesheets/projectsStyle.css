@@ -5,3 +5,48 @@ body {
 div.projectsBackGround {
     background-image: linear-gradient(to bottom left, black, white);
 }
+
+div.contentsTable {
+
+}
+
+div.projectDiv {
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    min-height: 13vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    color: aqua;
+    padding: 1vh;
+    padding-top: 0;
+    transition: 1s;
+
+    border: 0.5vh;
+    border-color: black;
+    border-style: solid;
+    border-radius: 100vh;
+    background-color: rgba(125, 125, 125, 0.1);
+}
+
+div.projectDiv:hover {
+    background-color: black;
+    border-color: white;
+    box-shadow: 1vh -1vh 1vh darkviolet;
+}
+
+a:link, a:visited {
+    color: aquamarine;
+    background-color: transparent;
+}
+
+a:hover, a:active {
+    color: aquamarine;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+p {
+    font-size: 3vh;
+    text-wrap: wrap;
+}
