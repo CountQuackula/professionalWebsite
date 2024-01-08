@@ -1,4 +1,4 @@
-const root = "http://CountQuackula.github.io/public"
+const root = "http://localhost:3000"
 
 function calculateFontSize() {
     const dynamicFontContainers = document.getElementsByClassName('dynamicFontSizing');
