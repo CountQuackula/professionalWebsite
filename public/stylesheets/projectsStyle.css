@@ -7,7 +7,39 @@ div.projectsBackGround {
 }
 
 div.contentsTable {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 75%;
+    position: fixed;
+    min-height: 10vh;
+    margin-top: 10vh;
+    padding: 1vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    font-weight: bold;
 
+    background-color: white;
+    border-radius: 2.5vh;
+    transition: 1s;
+    box-shadow: 1vh -1vh 0.5vh gray;
+}
+
+div.contentsTable:hover {
+    box-shadow: -1vh 1vh 0 gray;
+}
+
+div.contentsTable a:link, div.contentsTable a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+div.contentsTable a:hover, div.contentsTable a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: solid;
 }
 
 div.projectDiv {
@@ -21,6 +53,8 @@ div.projectDiv {
     padding: 1vh;
     padding-top: 0;
     transition: 1s;
+    padding-left: 5vh;
+    padding-right: 5vh;
 
     border: 0.5vh;
     border-color: black;
@@ -33,6 +67,10 @@ div.projectDiv:hover {
     background-color: black;
     border-color: white;
     box-shadow: 1vh -1vh 1vh darkviolet;
+}
+
+a {
+    text-wrap: wrap;
 }
 
 a:link, a:visited {
