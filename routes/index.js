@@ -4,11 +4,15 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.sendFile(path.join(__dirname, '../public/homepage.html'));
+  res.sendFile(path.join(__dirname, '../public/index.html'));
 });
 
 router.get('/homepage', function(req, res, next) {
-  res.sendFile(path.join(__dirname, '../public/homepage.html'));
+  res.sendFile(path.join(__dirname, '../public/index.html'));
+});
+
+router.get('/index', function(req, res, next) {
+  res.sendFile(path.join(__dirname, '../public/index.html'));
 });
 
 const testVar = {

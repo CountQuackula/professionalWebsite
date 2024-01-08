@@ -70,7 +70,7 @@ function contact() {
 };
 
 function homepage() {
-    window.location.assign(root+"/homepage");
+    window.location.assign(root+"/");
 };
 
 /*

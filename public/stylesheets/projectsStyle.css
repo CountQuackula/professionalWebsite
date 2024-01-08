@@ -19,6 +19,7 @@ div.contentsTable {
     padding-left: 1vw;
     padding-right: 1vw;
     font-weight: bold;
+    font-size: larger;
 
     background-color: white;
     border-radius: 2.5vh;
@@ -53,8 +54,8 @@ div.projectDiv {
     padding: 1vh;
     padding-top: 0;
     transition: 1s;
-    padding-left: 5vh;
-    padding-right: 5vh;
+    padding-left: 6vh;
+    padding-right: 6vh;
 
     border: 0.5vh;
     border-color: black;
