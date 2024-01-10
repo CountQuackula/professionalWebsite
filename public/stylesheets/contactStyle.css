@@ -3,5 +3,29 @@ body {
 }
 
 div.contactBackGround {
-    background-image: radial-gradient(rgb(250, 250, 85), pink);
+    background-image: radial-gradient(rgb(250, 250, 85), pink,black);
+}
+
+div.contactMethod {
+    min-height: 25vh;
+    padding-top: 7.5vh;
+    text-wrap: wrap;
+    padding-left: 40vw;
+    padding-right: 40vw;
+    color: darkviolet;
+    font-weight: bold;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a:link, a:visited {
+    color:red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:hover, a:active {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
 }
