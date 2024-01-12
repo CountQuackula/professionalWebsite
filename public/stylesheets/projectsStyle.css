@@ -13,18 +13,26 @@ div.contentsTable {
     margin-left: 5%;
     margin-right: 75%;
     position: fixed;
-    min-height: 10vh;
+    min-height: 1vh;
     margin-top: 10vh;
     padding: 1vh;
     padding-left: 1vw;
     padding-right: 1vw;
     font-weight: bold;
-    font-size: larger;
+    font-size: 1.25vw;
 
     background-color: white;
-    border-radius: 2.5vh;
+    border-radius: 1.25vw;
     transition: 1s;
     box-shadow: 1vh -1vh 0.5vh gray;
+}
+
+h1 {
+    font-size: 2.1vw;
+}
+
+h2 {
+    font-size: 1.575vw;
 }
 
 div.contentsTable:hover {
@@ -47,20 +55,20 @@ div.projectDiv {
     width: 40%;
     margin-left: 30%;
     margin-right: 30%;
-    min-height: 13vh;
+    min-height: 1vh;
     margin-top: 1vh;
     margin-bottom: 1vh;
     color: aqua;
     padding: 1vh;
-    padding-top: 0;
+    padding-top: 0.5vh;
     transition: 1s;
-    padding-left: 6vh;
-    padding-right: 6vh;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
 
     border: 0.5vh;
     border-color: black;
     border-style: solid;
-    border-radius: 100vh;
+    border-radius: 5vw;
     background-color: rgba(125, 125, 125, 0.1);
 }
 
@@ -86,6 +94,6 @@ a:hover, a:active {
 }
 
 p {
-    font-size: 3vh;
+    font-size: 1.5vw;
     text-wrap: wrap;
 }

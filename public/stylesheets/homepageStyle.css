@@ -3,5 +3,5 @@ body {
 }
 
 div.homepageBackGround {
-    background-image: linear-gradient(blue, darkviolet);
+    background-image: linear-gradient(blue, darkviolet, black);
 }
