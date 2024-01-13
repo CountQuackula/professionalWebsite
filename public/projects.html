@@ -6,7 +6,7 @@
         </title>
         <link rel="stylesheet" href="/stylesheets/navBarStyle.css">
         <link rel="stylesheet" href="/stylesheets/projectsStyle.css">
-        <link rel="icon" type="image/x-icon" href="/images/mySiteIcon.avif">
+        <link rel="icon" type="image/x-icon" href="/images/icon.png">
         <script src="/javascripts/logic.js"></script>
     </head>
     <body>
@@ -27,26 +27,28 @@
             quick access between sections like work exp, projects and skills
             and community involvment, non-technical stuff like hobbies and passions
             like bi-lingual and 3D printer and so on maybe something like, makes 5?-->
-            <div class="contentsTable">
-                <a href="#workExpDiv">
-                    Work Experience
-                </a>
-
-                <a href="#projectsDiv">
-                    Projects
-                </a>
-
-                <a href="#techAndSkillsDiv">
-                    Technologies and Skills
-                </a>
-
-                <a href="#communityAndVolunteeringDiv">
-                    Community and Volunteering
-                </a>
-
-                <a href="#hobbiesishDiv">
-                    Hobbies and Non-technical Skills
-                </a>
+            <div class="contentsTableSpacer">
+                <div class="contentsTable">
+                    <a href="#workExpDiv">
+                        Work Experience
+                    </a>
+    
+                    <a href="#projectsDiv">
+                        Projects
+                    </a>
+    
+                    <a href="#techAndSkillsDiv">
+                        Technologies and Skills
+                    </a>
+    
+                    <a href="#communityAndVolunteeringDiv">
+                        Community and Volunteering
+                    </a>
+    
+                    <a href="#hobbiesishDiv">
+                        Hobbies and Non-technical Skills
+                    </a>
+                </div>
             </div>
 
             <!-- This below section in comments is a template of the project titles and skills etc
@@ -79,324 +81,326 @@
             </div>
             -->
 
-            <div class="projectDiv" id="workExpDiv">
-                <h1>
-                    <a href="https://github.com/CountQuackula?tab=repositories" target="_blank">
-                        Work Experience:
-                    </a>
-                </h1>
-
-                <p>
-                    A section of my prior relevent work experience in software.
-                </p>
-            </div>
-            <div class="projectDiv">
-                <h2>
-                    <a href="https://github.com/CountQuackula/sonificationSummerProjectCSIRO" target="_blank">
-                        CSIRO Summer Intern 2023-2024:
-                    </a>
-                </h2>
-
-                <p>
-                    During the summer I spent a few months in Sydney working on open-source educational software
-                    for CSIRO to help with outreach, specifically sonification software to help engage students
-                    in science classrooms who have difficulty seeing traditional graphs, diagrams and plots of data.
-                </p>
-            </div>
-            <br>
-
-            <div class="projectDiv" id="projectsDiv">
-                <h1>
-                    <a href="https://github.com/CountQuackula?tab=repositories" target="_blank">
-                       Projects:
-                    </a>
-                </h1>
-
-                <p>
-                    My Github repositories page containing most/all my projects source code. Feel free to have a look around!
-                </p>
-            </div>
-            <div class="projectDiv">
-                <h2>
-                    <a href="https://github.com/CountQuackula/professionalWebsite" target="_blank">
-                       This Website
-                    </a>
-                </h2>
-
-                <p>
-                    The link to the source code for this website. Made with ExpressJS for back-end and vanilla HTML & CSS for the front-end.
-                </p>
-            </div>
-            <div class="projectDiv">
-                <h2>
-                    <a href="https://github.com/CountQuackula/sonificationSummerProjectCSIRO" target="_blank">
-                       CSIRO Sonification Module
-                    </a>
-                </h2>
-
-                <p>
-                    Open-source software developed by me during my CSIRO summer studentship on the LOCUST system.
-                    The LOCUST system is a radio-telescope set designed to engage students in science classrooms
-                    with STEM and I developed a code module meant to be used to engage students who are not able
-                    to see the visual data of graphs and plots by sonification of the radio waves. This project
-                    included extensive speed optimisations and asynchronous programming due to the heavy computation
-                    of complex algorithums being run on a Raspberry-Pi.
-                </p>
-            </div>
-            <!--
-            <div class="projectDiv">
-                <h1>
-                    <a href="https://github.com/CountQuackula/sonificationSummerProjectCSIRO" target="_blank">
-                       CSIRO Sonification Module
-                    </a>
-                </h1>
-
-                <p>
-                    Open-source software developed by me during my CSIRO summer studentship on the LOCUST system.
-                    The LOCUST system is a radio-telescope set designed to engage students in science classrooms
-                    with STEM and I developed a code module meant to be used to engage students who are not able
-                    to see the visual data of graphs and plots by sonification of the radio waves. This project
-                    included extensive speed optimisations and asynchronous programming due to the heavy computation
-                    of complex algorithums being run on a Raspberry-Pi.
-                </p>
-            </div>
-            Uni RISC-V Hardware Research and Related Personal Project<br>
-            -->
-            <div class="projectDiv">
-                <h2>
-                    <a href="https://github.com/CountQuackula/CPPanalyzer" target="_blank">
-                       Automatic Code Smell Detection
-                    </a>
-                </h2>
-
-                <p>
-                    Python research software I helped develop for a research project at university. The
-                    code will take the syntactic tree from the C++ compiler and analyse it to identify
-                    various code smells which can roughly be defined as refactorable code, checking a condition
-                    to return explicite boolean values rather than returning the value of the condition checked
-                    and duplicate code inside if-else statements that can be moved before or after the if-else.
-                    More examples and documentation should be available at the fork of the submission repository
-                    I have linked.
-                </p>
-            </div>
-            <div class="projectDiv">
-                <h2>
-                    <a href="https://github.com/CountQuackula/PyGames" target="_blank">
-                       Simple Game in Python
-                    </a>
-                </h2>
-
-                <p>
-                    A simple game GUI I made in Python using the Pygame library, before learning Object
-                    Oriented Programming so it's mostly functional programming apart from a patch made using
-                    a Python object. There was a lot of refactoring and abstraction involved though to allow
-                    me to more easily create the GUI I developed layers of abstraction until it was comparable
-                    to HTML for me.
-                </p>
-            </div>
-            <div class="projectDiv">
-                <h2>
-                    <a href="https://github.com/CountQuackula/epic-space-shooter" target="_blank">
-                       C++ Space Shooter
-                    </a>
-                </h2>
-
-                <p>
-                    A university project developed in a team of 4 where I gained teamwork and Git workflow
-                    skills. Along side this I was soley responsible for the games physics as we developed a
-                    simple game engine ourselves on top of the SFML library and used the Conan package manager
-                    for cross-platform development and compatability.
-                </p>
-            </div>
-            <div class="projectDiv">
-                <h2>
-                    <a href="https://github.com/CountQuackula/Linear-System-Solver" target="_blank">
-                       Matlab Calculator GUI Project
-                    </a>
-                </h2>
-
-                <p>
-                    Developed a Matlab program for an introductory coding course which would compute,
-                    interpret and visualise the reduced row echelon form of a matrix representing a
-                    system of linear equations.
-                </p>
-            </div>
-            <div class="projectDiv">
-                <h2>
-                    <a href="https://github.com/CountQuackula/HangMan" target="_blank">
-                       C++ Terminal Hangman
-                    </a>
-                </h2>
-
-                <p>
-                    C++ coded game of hangman played in the terminal, uses a hard-coded matrix and displays
-                    progressivly more lines the more erros the player makes. Uses a psuedo-random number generator
-                    to determine the word being played from a dictionary of words also hard-coded into the game.
-                </p>
-            </div>
-            <br>
-
-            <div class="projectDiv" id="techAndSkillsDiv">
-                <h1>
-                    <a href="https://www.linkedin.com/in/faisal-umar/" target="_blank">
-                       Technologies and Skills:
-                    </a>
-                </h1>
-
-                <p>
-                    A section to compile the list of technologies and skills I have used and developed over the course
-                    of my studies, internship, personal projects and community involvment.<br>
-                    C++<br>
-                    Python<br>
-                    Open-Source Development<br>
-                    Asynchronous Programming<br>
-                    Matlab<br>
-                    Git<br>
-                    Github<br>
-                    Pull-Merge Workflow<br>
-                    Bit-Bucket<br>
-                    VSCode<br>
-                    Assembly<br>
-                    WSL<br>
-                    Raspibian<br>
-                    Ubuntu<br>
-                    Cross-Compilation<br>
-                    Scripting in Shell, Bash and Make files<br>
-                    SFML<br>
-                    Pyenv<br>
-                    pip<br>
-                    Node.js<br>
-                    npm<br>
-                    HTML<br>
-                    CSS<br>
-                    JS<br>
-                    MySQL<br>
-                    expressJS<br>
-                    AJAX<br>
-                    End-to-End Development<br>
-                    Cross-Platform Development<br>
-                    Unity (VR)<br>
-                    Confluence<br>
-                </p>
-            </div>
-            <!--Need to add next js and htmx and fetch
-            and some newer techs once i use them in the second project
-            including reactJS since it'll be the front end from nextJS
-            which is built on nodeJS and also vercel once deployed and
-            typescript after the next project-->
-            <br>
-
-            <div class="projectDiv" id="communityAndVolunteeringDiv">
-                <h1>
-                    <a href="https://www.linkedin.com/in/faisal-umar/" target="_blank">
-                       Community and Volunteering:
-                    </a>
-                </h1>
-
-                <p>
-                    A section of my Community involvment and volunteering
-                </p>
-            </div>
-            <div class="projectDiv">
-                <h2>
-                    <a href="https://www.linkedin.com/in/faisal-umar/" target="_blank">
-                       University Club Committee
-                    </a>
-                </h2>
-
-                <p>
-                    A committee member of the University of Adelaide Computer Science Club. Responsibilities and
-                    commitments consist of partaking in club meetings and admin discussions. Specific role duties
-                    are to work in a team to manage and be the point of contact for the sponsors of the club.
-                </p>
-            </div>
-            <div class="projectDiv">
-                <h2>
-                    <a href="https://www.linkedin.com/in/faisal-umar/" target="_blank">
-                       Student Mentor
-                    </a>
-                </h2>
-
-                <p>
-                    A student mentor over the summer for a student run peer-to-peer coding bootcamp.
-                    Duties involved tracking all mentees and encouraging progress and study as well as
-                    practice from each and making concessions on deadlines on a case-by-case basis following
-                    strict guidelines as well as weekly summaries of each students progress.
-                </p>
-            </div>
-            <div class="projectDiv">
-                <h2>
-                    <a href="https://www.linkedin.com/in/faisal-umar/" target="_blank">
-                       O'Week Club Stand
-                    </a>
-                </h2>
-
-                <p>
-                    Volunteered to help run the clubs Orientation Week (O'Week) stand for the University
-                    of Adelaides Computer Science Club. Duties were mostly information and admin related,
-                    as well as being a point of contact for students inquiring about the club and helping
-                    in the joining process.
-                </p>
-            </div>
-            <div class="projectDiv">
-                <h2>
-                    <a href="https://www.linkedin.com/in/faisal-umar/" target="_blank">
-                       ICPC (Programming Competition)
-                    </a>
-                </h2>
-
-                <p>
-                    Participated in the ICPC competative programming competition organised by the University
-                    of Adelaide's Competative Programming Club in both 2022 and 2023. Had good fun testing myself
-                    and learnt a lot of algorithums and datastructures.
-                </p>
-            </div>
-            <div class="projectDiv">
-                <h2>
-                    <a href="https://www.linkedin.com/in/faisal-umar/" target="_blank">
-                       Duck CTF (Coding Competition)
-                    </a>
-                </h2>
-
-                <p>
-                    Participated in the Duck CTF (Capture The Flag) coding competition once in 2023 and 2024
-                    each. Had good fun and learnt new details that were previously hidden behind abstraction
-                    for me.
-                </p>
-            </div>
-            <br>
-
-            <div class="projectDiv" id="hobbiesishDiv">
-                <h1>
-                    <a href="https://www.linkedin.com/in/faisal-umar/" target="_blank">
-                       Hobbies and Other Skills:
-                    </a>
-                </h1>
-
-                <p>
-                    In no particular order any other relevent skills and hobbies I have:<br>
-                    Hobbies and Non-technical Skills (No Particular Order):<br>
-                    Swimming<br>
-                    Cycling<br>
-                    Gym<br>
-                    Hiking<br>
-                    Walking in the rain<br>
-                    3D Printing Hobbyist<br>
-                    Multi-Lingual<br>
-                    DIY Woodworking<br>
-                    DIY Electronics<br>
-                    Mathematics<br>
-                    Physics<br>
-                    Chemistry<br>
-                    Astronomy<br>
-                    Bubble Tea<br>
-                    Cooking<br>
-                    Video Games<br>
-                    Computer Hardware<br>
-                    Conflict Resolution<br>
-                    Professionalism<br>
-                    Leadership<br>
-                </p>
+            <div class="contentArea">
+                <div class="projectDiv" id="workExpDiv">
+                    <h1>
+                        <a href="https://github.com/CountQuackula?tab=repositories" target="_blank">
+                            Work Experience:
+                        </a>
+                    </h1>
+    
+                    <p>
+                        A section of my prior relevent work experience in software.
+                    </p>
+                </div>
+                <div class="projectDiv">
+                    <h2>
+                        <a href="https://github.com/CountQuackula/sonificationSummerProjectCSIRO" target="_blank">
+                            CSIRO Summer Intern 2023-2024:
+                        </a>
+                    </h2>
+    
+                    <p>
+                        During the summer I spent a few months in Sydney working on open-source educational software
+                        for CSIRO to help with outreach, specifically sonification software to help engage students
+                        in science classrooms who have difficulty seeing traditional graphs, diagrams and plots of data.
+                    </p>
+                </div>
+                <br>
+    
+                <div class="projectDiv" id="projectsDiv">
+                    <h1>
+                        <a href="https://github.com/CountQuackula?tab=repositories" target="_blank">
+                           Projects:
+                        </a>
+                    </h1>
+    
+                    <p>
+                        My Github repositories page containing most/all my projects source code. Feel free to have a look around!
+                    </p>
+                </div>
+                <div class="projectDiv">
+                    <h2>
+                        <a href="https://github.com/CountQuackula/professionalWebsite" target="_blank">
+                           This Website
+                        </a>
+                    </h2>
+    
+                    <p>
+                        The link to the source code for this website. Made with ExpressJS for back-end and vanilla HTML & CSS for the front-end.
+                    </p>
+                </div>
+                <div class="projectDiv">
+                    <h2>
+                        <a href="https://github.com/CountQuackula/sonificationSummerProjectCSIRO" target="_blank">
+                           CSIRO Sonification Module
+                        </a>
+                    </h2>
+    
+                    <p>
+                        Open-source software developed by me during my CSIRO summer studentship on the LOCUST system.
+                        The LOCUST system is a radio-telescope set designed to engage students in science classrooms
+                        with STEM and I developed a code module meant to be used to engage students who are not able
+                        to see the visual data of graphs and plots by sonification of the radio waves. This project
+                        included extensive speed optimisations and asynchronous programming due to the heavy computation
+                        of complex algorithums being run on a Raspberry-Pi.
+                    </p>
+                </div>
+                <!--
+                <div class="projectDiv">
+                    <h1>
+                        <a href="https://github.com/CountQuackula/sonificationSummerProjectCSIRO" target="_blank">
+                           CSIRO Sonification Module
+                        </a>
+                    </h1>
+    
+                    <p>
+                        Open-source software developed by me during my CSIRO summer studentship on the LOCUST system.
+                        The LOCUST system is a radio-telescope set designed to engage students in science classrooms
+                        with STEM and I developed a code module meant to be used to engage students who are not able
+                        to see the visual data of graphs and plots by sonification of the radio waves. This project
+                        included extensive speed optimisations and asynchronous programming due to the heavy computation
+                        of complex algorithums being run on a Raspberry-Pi.
+                    </p>
+                </div>
+                Uni RISC-V Hardware Research and Related Personal Project<br>
+                -->
+                <div class="projectDiv">
+                    <h2>
+                        <a href="https://github.com/CountQuackula/CPPanalyzer" target="_blank">
+                           Automatic Code Smell Detection
+                        </a>
+                    </h2>
+    
+                    <p>
+                        Python research software I helped develop for a research project at university. The
+                        code will take the syntactic tree from the C++ compiler and analyse it to identify
+                        various code smells which can roughly be defined as refactorable code, checking a condition
+                        to return explicite boolean values rather than returning the value of the condition checked
+                        and duplicate code inside if-else statements that can be moved before or after the if-else.
+                        More examples and documentation should be available at the fork of the submission repository
+                        I have linked.
+                    </p>
+                </div>
+                <div class="projectDiv">
+                    <h2>
+                        <a href="https://github.com/CountQuackula/PyGames" target="_blank">
+                           Simple Game in Python
+                        </a>
+                    </h2>
+    
+                    <p>
+                        A simple game GUI I made in Python using the Pygame library, before learning Object
+                        Oriented Programming so it's mostly functional programming apart from a patch made using
+                        a Python object. There was a lot of refactoring and abstraction involved though to allow
+                        me to more easily create the GUI I developed layers of abstraction until it was comparable
+                        to HTML for me.
+                    </p>
+                </div>
+                <div class="projectDiv">
+                    <h2>
+                        <a href="https://github.com/CountQuackula/epic-space-shooter" target="_blank">
+                           C++ Space Shooter
+                        </a>
+                    </h2>
+    
+                    <p>
+                        A university project developed in a team of 4 where I gained teamwork and Git workflow
+                        skills. Along side this I was soley responsible for the games physics as we developed a
+                        simple game engine ourselves on top of the SFML library and used the Conan package manager
+                        for cross-platform development and compatability.
+                    </p>
+                </div>
+                <div class="projectDiv">
+                    <h2>
+                        <a href="https://github.com/CountQuackula/Linear-System-Solver" target="_blank">
+                           Matlab Calculator GUI Project
+                        </a>
+                    </h2>
+    
+                    <p>
+                        Developed a Matlab program for an introductory coding course which would compute,
+                        interpret and visualise the reduced row echelon form of a matrix representing a
+                        system of linear equations.
+                    </p>
+                </div>
+                <div class="projectDiv">
+                    <h2>
+                        <a href="https://github.com/CountQuackula/HangMan" target="_blank">
+                           C++ Terminal Hangman
+                        </a>
+                    </h2>
+    
+                    <p>
+                        C++ coded game of hangman played in the terminal, uses a hard-coded matrix and displays
+                        progressivly more lines the more erros the player makes. Uses a psuedo-random number generator
+                        to determine the word being played from a dictionary of words also hard-coded into the game.
+                    </p>
+                </div>
+                <br>
+    
+                <div class="projectDiv" id="techAndSkillsDiv">
+                    <h1>
+                        <a href="https://www.linkedin.com/in/faisal-umar/" target="_blank">
+                           Technologies and Skills:
+                        </a>
+                    </h1>
+    
+                    <p>
+                        A section to compile the list of technologies and skills I have used and developed over the course
+                        of my studies, internship, personal projects and community involvment.<br>
+                        C++<br>
+                        Python<br>
+                        Open-Source Development<br>
+                        Asynchronous Programming<br>
+                        Matlab<br>
+                        Git<br>
+                        Github<br>
+                        Pull-Merge Workflow<br>
+                        Bit-Bucket<br>
+                        VSCode<br>
+                        Assembly<br>
+                        WSL<br>
+                        Raspibian<br>
+                        Ubuntu<br>
+                        Cross-Compilation<br>
+                        Scripting in Shell, Bash and Make files<br>
+                        SFML<br>
+                        Pyenv<br>
+                        pip<br>
+                        Node.js<br>
+                        npm<br>
+                        HTML<br>
+                        CSS<br>
+                        JS<br>
+                        MySQL<br>
+                        expressJS<br>
+                        AJAX<br>
+                        End-to-End Development<br>
+                        Cross-Platform Development<br>
+                        Unity (VR)<br>
+                        Confluence<br>
+                    </p>
+                </div>
+                <!--Need to add next js and htmx and fetch
+                and some newer techs once i use them in the second project
+                including reactJS since it'll be the front end from nextJS
+                which is built on nodeJS and also vercel once deployed and
+                typescript after the next project-->
+                <br>
+    
+                <div class="projectDiv" id="communityAndVolunteeringDiv">
+                    <h1>
+                        <a href="https://www.linkedin.com/in/faisal-umar/" target="_blank">
+                           Community and Volunteering:
+                        </a>
+                    </h1>
+    
+                    <p>
+                        A section of my Community involvment and volunteering
+                    </p>
+                </div>
+                <div class="projectDiv">
+                    <h2>
+                        <a href="https://www.linkedin.com/in/faisal-umar/" target="_blank">
+                           University Club Committee
+                        </a>
+                    </h2>
+    
+                    <p>
+                        A committee member of the University of Adelaide Computer Science Club. Responsibilities and
+                        commitments consist of partaking in club meetings and admin discussions. Specific role duties
+                        are to work in a team to manage and be the point of contact for the sponsors of the club.
+                    </p>
+                </div>
+                <div class="projectDiv">
+                    <h2>
+                        <a href="https://www.linkedin.com/in/faisal-umar/" target="_blank">
+                           Student Mentor
+                        </a>
+                    </h2>
+    
+                    <p>
+                        A student mentor over the summer for a student run peer-to-peer coding bootcamp.
+                        Duties involved tracking all mentees and encouraging progress and study as well as
+                        practice from each and making concessions on deadlines on a case-by-case basis following
+                        strict guidelines as well as weekly summaries of each students progress.
+                    </p>
+                </div>
+                <div class="projectDiv">
+                    <h2>
+                        <a href="https://www.linkedin.com/in/faisal-umar/" target="_blank">
+                           O'Week Club Stand
+                        </a>
+                    </h2>
+    
+                    <p>
+                        Volunteered to help run the clubs Orientation Week (O'Week) stand for the University
+                        of Adelaides Computer Science Club. Duties were mostly information and admin related,
+                        as well as being a point of contact for students inquiring about the club and helping
+                        in the joining process.
+                    </p>
+                </div>
+                <div class="projectDiv">
+                    <h2>
+                        <a href="https://www.linkedin.com/in/faisal-umar/" target="_blank">
+                           ICPC (Programming Competition)
+                        </a>
+                    </h2>
+    
+                    <p>
+                        Participated in the ICPC competative programming competition organised by the University
+                        of Adelaide's Competative Programming Club in both 2022 and 2023. Had good fun testing myself
+                        and learnt a lot of algorithums and datastructures.
+                    </p>
+                </div>
+                <div class="projectDiv">
+                    <h2>
+                        <a href="https://www.linkedin.com/in/faisal-umar/" target="_blank">
+                           Duck CTF (Coding Competition)
+                        </a>
+                    </h2>
+    
+                    <p>
+                        Participated in the Duck CTF (Capture The Flag) coding competition once in 2023 and 2024
+                        each. Had good fun and learnt new details that were previously hidden behind abstraction
+                        for me.
+                    </p>
+                </div>
+                <br>
+    
+                <div class="projectDiv" id="hobbiesishDiv">
+                    <h1>
+                        <a href="https://www.linkedin.com/in/faisal-umar/" target="_blank">
+                           Hobbies and Other Skills:
+                        </a>
+                    </h1>
+    
+                    <p>
+                        In no particular order any other relevent skills and hobbies I have:<br>
+                        Hobbies and Non-technical Skills (No Particular Order):<br>
+                        Swimming<br>
+                        Cycling<br>
+                        Gym<br>
+                        Hiking<br>
+                        Walking in the rain<br>
+                        3D Printing Hobbyist<br>
+                        Multi-Lingual<br>
+                        DIY Woodworking<br>
+                        DIY Electronics<br>
+                        Mathematics<br>
+                        Physics<br>
+                        Chemistry<br>
+                        Astronomy<br>
+                        Bubble Tea<br>
+                        Cooking<br>
+                        Video Games<br>
+                        Computer Hardware<br>
+                        Conflict Resolution<br>
+                        Professionalism<br>
+                        Leadership<br>
+                    </p>
+                </div>
             </div>
 
             <!--

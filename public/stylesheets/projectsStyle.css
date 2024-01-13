@@ -3,36 +3,33 @@ body {
 }
 
 div.projectsBackGround {
-    background-image: linear-gradient(to bottom left, black, white);
+    background-image: linear-gradient(to bottom left, gray, lightgray);
+}
+
+div.contentsTableSpacer {
+    position: fixed;
+    padding-left: 5vw;
+    width: min-content;
 }
 
 div.contentsTable {
     display: flex;
     flex-direction: column;
-    width: 20%;
-    margin-left: 5%;
-    margin-right: 75%;
-    position: fixed;
+    row-gap: 4vw;
+
+    width: 20vw;
     min-height: 1vh;
-    margin-top: 10vh;
     padding: 1vh;
     padding-left: 1vw;
     padding-right: 1vw;
+
     font-weight: bold;
-    font-size: 1.25vw;
+    font-size: 3vw;
 
     background-color: white;
-    border-radius: 1.25vw;
+    border-radius: 4vw;
     transition: 1s;
     box-shadow: 1vh -1vh 0.5vh gray;
-}
-
-h1 {
-    font-size: 2.1vw;
-}
-
-h2 {
-    font-size: 1.575vw;
 }
 
 div.contentsTable:hover {
@@ -51,13 +48,19 @@ div.contentsTable a:hover, div.contentsTable a:active {
     text-decoration: solid;
 }
 
+div.contentArea {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1vh;
+
+    width: 100vw;
+    padding-left: 30vw;
+    padding-right: 5vw;
+}
+
 div.projectDiv {
-    width: calc(calc(40% - calc(2.225% * 3)) + calc(4.45vh * 3));
-    margin-left: calc(30%);
-    margin-right: calc(calc(30% + calc(2.225% * 3)) - calc(4.45vh * 3));
+    width: 65vw;
     min-height: 1vh;
-    margin-top: 1vh;
-    margin-bottom: 1vh;
     color: aqua;
     padding: 1vh;
     padding-top: 0.5vh;
@@ -65,7 +68,7 @@ div.projectDiv {
     padding-left: 2.5vw;
     padding-right: 2.5vw;
 
-    border: 0.5vh;
+    border: 1vw;
     border-color: black;
     border-style: solid;
     border-radius: 5vw;
@@ -76,6 +79,14 @@ div.projectDiv:hover {
     background-color: black;
     border-color: white;
     box-shadow: 1vh -1vh 1vh darkviolet;
+}
+
+h1 {
+    font-size: 4.5vw;
+}
+
+h2 {
+    font-size: 3.75vw;
 }
 
 a {
@@ -94,6 +105,39 @@ a:hover, a:active {
 }
 
 p {
-    font-size: 1.5vw;
+    font-size: 3.5vw;
     text-wrap: wrap;
+}
+
+@media only screen and (orientation: landscape) {
+    div.contentsTable {
+        row-gap: 3.5vh;
+        font-size: min(3.75vh, 3vw);
+    }
+
+    div.contentArea {
+        padding-right: 30vw;
+    }
+
+    div.projectDiv {
+        width: 40vw;
+
+        border: 1vh;
+        border-color: black;
+        border-style: solid;
+        border-radius: 5vh;
+        background-color: rgba(125, 125, 125, 0.1);
+    }
+
+    h1 {
+        font-size: 6vh;
+    }
+
+    h2 {
+        font-size: 4.5vh;
+    }
+
+    p {
+        font-size: 3vh;
+    }
 }
