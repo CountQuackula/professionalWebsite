@@ -15,6 +15,10 @@ router.get('/index', function(req, res, next) {
   res.sendFile(path.join(__dirname, '../public/index.html'));
 });
 
+router.get('/ratio', function(req, res, next) {
+  res.sendFile(path.join(__dirname, '../public/ratio.html'));
+});
+
 const testVar = {
   msg : "You've got mail!",
   num : 1

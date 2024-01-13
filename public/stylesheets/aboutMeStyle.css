@@ -8,7 +8,7 @@ div.aboutMeBackGround {
 }
 
 div.contentArea {
-    width: 100%;
+    width: 100vw;
     min-height: 10vh;
     display: flex;
     flex-direction: row;
@@ -16,9 +16,9 @@ div.contentArea {
 }
 
 div.textArea {
-    width: 100%;
-    margin-left: 3.125%;
-    margin-right: 3.125%;
+    width: 100vw;
+    margin-left: 3.125vw;
+    margin-right: 3.125vw;
     text-wrap: wrap;
     color: white;
 }
@@ -26,11 +26,11 @@ div.textArea {
 img.portrait {
     float: right;
     border-radius: 2.5vw;
-    width: max(calc(35% / 25 * 18.75), calc(25vh / 25 * 18.75));
-    height: max(calc(35% / 25 * 25), calc(25vh / 25 * 25));
-    margin-left: calc(25.5% - max(calc(17.5% / 25 * 18.75), calc(12.5vh / 25 * 18.75)));
-    margin-right: calc(25% - max(calc(17.5% / 25 * 18.75), calc(12.5vh / 25 * 18.75)));
-    margin-bottom: max(0px, 50vh - calc(max(calc(35% / 25 * 25), calc(25vh / 25 * 25)) + 15vh));
+    width: max(calc(35vw / 25 * 18.75), calc(25vh / 25 * 18.75));
+    height: max(calc(35vw / 25 * 25), calc(25vh / 25 * 25));
+    margin-left: calc(25.5vw - max(calc(17.5vw / 25 * 18.75), calc(12.5vh / 25 * 18.75)));
+    margin-right: calc(25vw - max(calc(17.5vw / 25 * 18.75), calc(12.5vh / 25 * 18.75)));
+    margin-bottom: max(0px, 50vh - calc(max(calc(35vw / 25 * 25), calc(25vh / 25 * 25)) + 15vh));
 }
 
 h1 {

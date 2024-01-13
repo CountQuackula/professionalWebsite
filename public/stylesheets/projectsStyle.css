@@ -52,9 +52,9 @@ div.contentsTable a:hover, div.contentsTable a:active {
 }
 
 div.projectDiv {
-    width: 40%;
-    margin-left: 30%;
-    margin-right: 30%;
+    width: calc(calc(40% - calc(2.225% * 3)) + calc(4.45vh * 3));
+    margin-left: calc(30%);
+    margin-right: calc(calc(30% + calc(2.225% * 3)) - calc(4.45vh * 3));
     min-height: 1vh;
     margin-top: 1vh;
     margin-bottom: 1vh;
