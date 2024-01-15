@@ -16,6 +16,7 @@ body {
 div.hubBar {
   display: flex;
   flex-direction: row;
+  position: fixed;
   min-height: 10vh;
   width: 100%;
   padding-top: 0.25%;
